@@ -32,6 +32,7 @@ body{
 
 a{
 	padding-left: 20px;
+	color: white;
 }
 
 .home a:hover{
@@ -55,7 +56,7 @@ a{
 }
 
 .sobre p{
-	width: 38%;
+	width: 500px;
 	text-align: justify;
 }
 
@@ -107,7 +108,41 @@ a:link{
 	display: block;
 }
 
-@media screen and (max-width: 700px){
+.img-info img{
+	height: 600px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.inf-botao button{
+	background-color: white;
+	border: none;
+	padding: 8px 0 8px 0;
+	padding-right: 20px;
+	cursor: pointer;
+	margin: 20px 0 0 34%;
+	width: 433px;
+	border-radius: 5px 5px;
+}
+.inf-botao p{
+	width: 800px;
+	}
+.info2 p{
+	width: 700px;
+	text-align: justify;
+	padding-right: 20px;
+	margin: 20px 0 0 25%;
+	margin-bottom: 3%;
+
+	}
+
+.titulo{
+	font-size: 30px;
+
+}
+
+@media screen and (max-width: 900px){
 	.in{
 	height: 100px;
 	}
@@ -129,14 +164,14 @@ div.home {
         top: 18%;
         left: 20%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) }
-	}
+        transform: translate(-50%, -50%) 
+    }
 	.sobre{
 		height: 300px;
 	    background-size: cover;
 	}
 	.sobre p{
-		width: 80%;
+		width: 400px;
 		text-align: justify;
 	}
 	.text-1{
@@ -144,8 +179,15 @@ div.home {
 	}
 
 	.pref img{
-		height: 40px;
+			height: 40px;
+		}
+	.inf-botao button{
+		width: 200px;
 	}
-
+	.info2 p{
+		width: 400px;
+		text-align: justify;
+		margin-left: 10%; 
+	}
 }
 
