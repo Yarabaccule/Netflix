@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif, Times;
+	font-size: 14px;
+}
+
+body{
+	width: 100%;
+	min-height: 100%;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	}
+.in{
+	background: black;
+	height: 60px;
+}
+.logo img{
+	height: 40px;
+	margin-top: 12px;
+	margin-left: 20px;
+    }
+
+.home {
+	margin-left: 30%;
+	margin-top:-30px;
+
+}
+
+a{
+	padding-left: 20px;
+}
+
+.home a:hover{
+	color: lightgray;
+}
+
+.filmes img{
+	height: 300px;
+	width: 200px;
+	padding-top: 20px;
+}
+
+.sobre{
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100% ), url("img/ui (3).jpg"); 
+	height: 400px;
+    background-size: cover;
+    background-position: 0px; 
+	color: white;
+	padding-top: 10%;
+	padding-left: 7%;
+}
+
+.sobre p{
+	width: 38%;
+	text-align: justify;
+}
+
+.inf{
+	text-align: top;
+
+}
+.botao a:hover{
+	color: lightgray;
+
+}
+
+a:link{
+	color: white;
+}
+
+.text-1{
+	font-size: 50px;
+}
+
+.pref img{
+	height: 50px;
+}
+
+.botao button{
+	background-color: rgba(0,0,0,.50);
+	border: none;
+	padding: 8px 0 8px 0;
+	padding-right: 20px;
+	margin-right: 15px;
+	cursor: pointer;
+	transition: .3s ease all;
+	margin-top: 10px;
+
+}
+
+.botao{
+	display: flex;	
+}
+
+.fas{
+	margin-left: 10px;
+	color: white;
+}
+
+.box-filme{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+@media screen and (max-width: 700px){
+	.in{
+	height: 100px;
+	}
+	.logo img{
+	height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+        }
+
+	
+div.home {
+
+
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 18%;
+        left: 20%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+	}
+	.sobre{
+		height: 300px;
+	    background-size: cover;
+	}
+	.sobre p{
+		width: 80%;
+		text-align: justify;
+	}
+	.text-1{
+		font-size: 40px;
+	}
+
+	.pref img{
+		height: 40px;
+	}
+
+}
+

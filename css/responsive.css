@@ -1,0 +1,7 @@
+@media screen and(max-width: 530px){
+	.home a{
+		display: flex;
+		flex-direction: column;
+		padding: 50px;
+		margin:50px;
+}
