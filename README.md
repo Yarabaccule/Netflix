@@ -3,12 +3,13 @@ Digital Innovetion One.
 
 Esse é o repositório da nossa aula de como montar uma Netflix!
 
-Os requisitos são:
+###Os requisitos são:
 
-HTML básico
+- HTML básico
 
-CSS básico
+- CSS básico
 
-Javascript basico
+- Javascript basico
 
-🚀 Let's go! 🚀# netflix
+
+🚀 Let's go! 🚀 #netflix
