@@ -1,15 +1,15 @@
-# Olá esta é um dos projetos que desenvolvi com a ajuda de um professor.
+# Olá esta é a segunda parte do curso HTML Web Developer
 Digital Innovetion One.
 
-Esse é o repositório da nossa aula de como montar um Api de Criptomoedas!
+Esse é o repositório da nossa aula de como montar uma Netflix!
 
-Prof: Barbara Casac
+Prof: Felipe Aguiar.
 
 ### Os requisitos são:
 
 - HTML básico
-
+- CSS básico
 - Javascript basico
 
 
-🚀 Let's go! 🚀 # ApiCriptomoedas
+🚀 Let's go! 🚀 #netflix
